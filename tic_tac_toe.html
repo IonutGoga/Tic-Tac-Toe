@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tic_tac_toe.css">
+    <title>Tic Tac Toe Game</title>
+</head>
+<body>
+
+    <label for="player1">Player who chose X name: </label>
+    <input type="text" id="player1">
+    <br>
+    <label for="player2">Player who chose 0 name: </label>
+    <input type="text" id="player2">
+    <br>
+    <button id="submit" onclick="insertPlayers()">Submit</button>
+    <br>
+    <button onclick="restart()" id="restart">Restart Game</button>
+
+    <h1 id="message">The winner is: </h1>
+
+    <div id="container">
+
+        <div id="first-row">
+            <p id="1"></p>
+            <p id="2"></p>
+            <p id="3"></p>
+        </div>
+
+        <div id="second-row">
+            <p id="4"></p>
+            <p id="5"></p>
+            <p id="6"></p>
+        </div>
+
+        <div id="third-row">
+            <p id="7"></p>
+            <p id="8"></p>
+            <p id="9"></p>
+        </div>
+
+        
+        
+        
+    </div>
+    
+
+    <script src="tic_tac_toe.js"></script>
+</body>
+</html>
